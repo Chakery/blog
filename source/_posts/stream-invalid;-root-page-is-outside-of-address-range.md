@@ -1,5 +1,5 @@
 ---
-title: stream invalid; root page is outside of address range
+title: "stream invalid; root page is outside of address range"
 date: 2016-05-27
 ---
 
@@ -12,7 +12,7 @@ stream invalid; root page is outside of address range
 
 ***问题:***
 导致这样的问题会有很多情况, 我这里是因为使用了不存在的资源. `user_icon`这个图片不存在.
-```
+```swift
 UIImage(named: "user_icon")
 ```
 

@@ -1,5 +1,5 @@
 ---
-title: CocoaPods trunk push 的坑
+title: "CocoaPods trunk push 的坑"
 date: 2016-05-27
 ---
 

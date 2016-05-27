@@ -1,5 +1,5 @@
 ---
-title: 打造一个愉快的XCode控制台
+title: "打造一个愉快的XCode控制台"
 date: 2016-05-27
 ---
 
@@ -27,7 +27,7 @@ pod 'XCGLogger', '~> 3.3' // xcode7.3 必须使用3.3版本
 
 ##2.3 配置输出窗口
 新建一个Log.swift文件，当然名字随意。
-```
+```swift
 import XCGLogger
 
 public let log: XCGLogger = {
@@ -62,6 +62,6 @@ public let log: XCGLogger = {
 ##2.4 配置DEBUG
 TARGETS -> Build Setting -> Other Swift Flags -> -D DEBUG
 *如图：*
-![](http://upload-images.jianshu.io/upload_images/2049411-7738a4b202dba2c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/2049411-7738a4b202dba2c1.png)
 *最后，效果图：*
-![](http://upload-images.jianshu.io/upload_images/2049411-e241db5912e251f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/2049411-e241db5912e251f5.png)

@@ -1,5 +1,5 @@
 ---
-title: 去掉UITableViewController的TableView的HeaderView与屏幕顶部的间隙
+title: "去掉UITableViewController的TableView的HeaderView与屏幕顶部的间隙"
 date: 2016-05-27
 ---
 
@@ -10,6 +10,6 @@ date: 2016-05-27
 ![](http://upload-images.jianshu.io/upload_images/2049411-7e09d751b713e8a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 2. 使用代码, 如下
-```
+```swift
 self.automaticallyAdjustsScrollViewInsets = false
 ```

@@ -1,10 +1,10 @@
 ---
-title: 在Swift中使用NSClassFromString
+title: "在Swift中使用NSClassFromString"
 date: 2016-05-27
 ---
 
 NSClassFromString("") 在swift中已经没法正常使用。应使用一下代替：
-```
+```swift
     if  let appName: String? = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleName") as! String? {
     
         let classStringName = "_TtC\(appName!.characters.count)\(appName!)\(className.characters.count)\(className)"

@@ -1,11 +1,11 @@
 ---
-title: Swift MD5
+title: "Swift MD5"
 date: 2016-05-27
 ---
 
 在swift中，使用CC_MD5实现MD5加密。
 在桥接文件中引入`#import <CommonCrypto/CommonDigest.h>`
-```
+```swift
 extension String {
     var MD5: String! {
         let str = self.cStringUsingEncoding(NSUTF8StringEncoding)
